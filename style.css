@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Head2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+    top: 160px;
+    font-size: 60px;
+}
+.Head1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 150px;
+    top: 260px;
+    font-size: 60px;
+}
+.box{
+    background-repeat: no-repeat;
+    background-color: #1c161884;
+    width: 460px;
+    height: 610px;
+    position: absolute;
+    left: 190px;
+    top: 130px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+}
+.form{
+    padding: 40px;
+}
+
+input[type=number] {
+    width: 90%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: 3px solid;
+  }
+  button{
+    width: 50%;
+    height: 5%;
+    position:absolute;
+    left: 109px;
+    background-color: rgb(57, 125, 94);
+    font-weight: bold;
+    color: aliceblue;
+
+}
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

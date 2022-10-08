@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+<htm>
+    <head>
+        <title>House Price</title>
+
+    </head>
+
+    <body>
+    <h1 class = "Head2"> Machine Learning Application </h1>
+    <h2 class = "Head1"> House Price Prediction </h2>
+        <div class = "box">
+            <form class="form" id="content-form" method="post" action="/predict" >
+                <label>Size Of House</label> <br>
+                <input type="number" name="size" placeholder="Size"  id="size"> <br> <br>
+                <label>Number Of Bedrooms</label> <br>
+                <input type="number" name="bed" placeholder="Badrooms" id="bed"> <br> <br>
+                <label>Number of Bathrooms</label> <br>
+                <input type="number" name="bath" placeholder="Bathrooms" id="bath"> <br> <br>
+                <button type="submit">Predict</button> <br> <br>
+                <h2 align="center">{{pred}}</h2>
+            </form>
+        </div>
+
+    </body>
+</htm>
